@@ -9,7 +9,7 @@
 
 ### if you dont have account? make one
 
-### if you have one but you forgot password there is feture for that as well 
+### if you have one ,but you forgot password there is feature for that as well 
 
 ![nest](https://i.ibb.co/T2s6fk7/image.png)
 
