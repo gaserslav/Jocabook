@@ -36,7 +36,7 @@
 
 ![](https://i.ibb.co/1Qjm3Wn/image.png)
 
-### thats list of users you are in 'contact' with by contact I mean you recived atleast 1 massage from them 
+### thats list of users you are in 'contact' with by contact I mean you received at least one massage from them 
 
 >how do i contact people?
 
@@ -50,4 +50,4 @@
 
 ### after that you insert title and content of post 
 
-### I know main pages looks shity complaring to login page and also i should be adding notification/something that will tell you that someone is trying to contant you and profile pic customization
+### I know main pages looks shitty comparing to login page and also I should be adding notification/something that will tell you that someone is trying to contact you and profile pic customization
