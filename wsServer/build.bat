@@ -1,0 +1,3 @@
+pkg main.js
+
+pause

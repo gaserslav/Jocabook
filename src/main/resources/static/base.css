@@ -1,0 +1,209 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: lightblue;
+}
+
+.jedanpost{
+    margin:10vw;
+    width: 60vw;
+    height: 40vh;
+    border-radius: 2vh 2vh 2vh 2vh;
+    border: 1vh dotted darkorange;
+}
+
+.postautor{
+    position: absolute;
+    right:0px;
+    top: 4vh;
+}
+
+.posttitle{
+    height: 10%;
+    font-size: 4vh;
+    background-color: lightskyblue;
+    text-align: center;
+}
+.postcontent{
+    height: 90%;
+    width: 60vw;
+    background-color: whitesmoke;    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.resu{
+    width: 100vw;
+    height: 90vh;
+    overflow:scroll;
+}
+
+.res{
+    width: 79vw;
+    height: 90vh;
+    float:left;
+    overflow:scroll;
+}
+.post{
+    width: 79vw;
+    height: 90vh;
+    float:left;
+    background-color: aquamarine;
+    overflow:scroll;
+}
+.postu{
+    width: 100vw;
+    height: 90vh;
+    float:left;
+    background-color: aquamarine;
+    overflow:scroll;
+}
+
+#red{
+    height: 6%;
+}
+#red-prof{
+    height: 6%;
+    border-radius: 100% 100% 100% 100%;
+}
+
+#more{
+
+    border-radius: 30px 30px 30px 30px;
+    color:lightgray;
+    background-color: black;
+    float:right;
+    margin-top: 10vh;
+    margin-right: 10vw;
+    font-size: 5vh;
+}
+
+.chet{
+    width: 20vw;
+    height: 90vh;
+    float: right;
+    background-color: lightcoral;
+    overflow:scroll;
+}
+
+div{
+    padding: 0;
+    margin:0;
+}
+
+#logo{
+    height: 10vh;
+    float: left;
+}
+
+#profile{
+
+    height: 10vh;
+    float: left;
+}
+
+#massages{
+    margin-top: 3vh;
+    background-color: black;
+    color:antiquewhite;
+    height: 3vh;
+    float:left;
+}
+
+
+.dont_look{
+visibility: hidden;
+}
+
+.you{
+    margin-left: 10vw;
+    float:left;
+    height:10vh;
+}
+
+#kanal{
+    height:10vh;
+}
+
+#small{
+    height:6vh;
+}
+
+#trazi{
+
+    width: 20vw;
+    float: left;
+    margin-top: 3vh;
+    height: 4vh;
+    margin-bottom: 2vh;
+
+    border-radius: 2vh 2vh 2vh 2vh ;
+
+    
+}
+
+#ime{
+    float: left;
+    width: 20vw;
+    height: 3vh;
+    margin-top: 3vh;
+    font-size: 3vh;
+}
+
+#minichet{
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 30vh;
+    background-color: wheat;
+    bottom: 0px;
+    right: 0px;
+}
+
+#log_off{
+    float: right;
+    width: 5vw;
+    height: 10vh;
+    background-color: black;
+    margin-top: 3vh;
+    height: 3vh;
+    margin-bottom: 3vh;
+    border-radius: 4vh 4vh 4vh 4vh ;
+    text-align: center;
+    color:snow;
+}
+
+#history_mini_chet{
+
+    width: 100%;
+    height: 90%;
+    background-color: aliceblue;
+    overflow:scroll;
+
+}
+
+#X{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 5%;
+    height: 5%;
+    background-color: red;
+}
+
+#sendmassage{
+    width:10%;
+    float:right;
+    height: 8%;
+}
+#massage{
+
+    width:70%;
+    float:left;
+    height: 8%;
+}
+

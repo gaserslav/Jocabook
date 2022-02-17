@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{target_ime}</title>
+
+    <link rel="stylesheet" href="/base.css">
+    <link rel="stylesheet" href="/account/account.css">
+</head>
+<body>
+    <div class="header"><img id="logo" src="/logo.png"><img id="profile" src="{target_profile}"><div id="ime">{target_ime}</div> <button id="massages">send massage</button>
+    <form action="/trazi" method="get">
+        <input type="text" id="trazi" value="trazi" name="trazi">
+    </form>
+    
+    <div class="you"><a href='/accounts/{positive_ime}'><img class="you" src='{positive_profile}'></a></div>
+    <div class="you"><a href='/posting'>make post</a></div>
+    <button id="log_off">Log off</button>
+    </div>
+        <div class="post">
+            
+            <div id="hostory">
+                {target_posts}
+            </div>
+            
+            <form action="/accounts/{positive_ime}">
+            <input type="submit" id="more" value="Jos postova">
+            <input type="text" style="visibility:hidden" value="{offset}" name="offset">
+            </form>
+
+        </div>
+     <div class="chet">
+
+        {positive_chets}
+
+
+        <div id="minichet">
+            
+            <div id="X"></div>
+            <div id="history_mini_chet"></div>
+            <input type="text" id="massage"> 
+            <input type="submit" id="sendmassage" value="send">
+        </div>
+
+     </div>
+
+     <div id="target" class="dont_look">{target_id}</div>
+     <div id="pozitive" class="dont_look">{positive_id}</div>
+</body>
+<script src="/chet-client.js"></script>
+
+<script src="/account/account.js">
+</script>
+</html>

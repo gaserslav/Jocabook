@@ -1,0 +1,82 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(40,40,40,1);
+    background-size: cover;
+
+}
+
+#loading{
+    text-align: center;
+    color:rgb(0,0,0,0);
+
+    -webkit-text-stroke: 1px black;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    font-size: 10vh;
+    animation: lock 2 3s;
+}
+.loading{
+    position: absolute;
+    left:30vw;
+    top:30vh;
+    width: 40vw;
+    height: 40vh;
+
+}
+
+@keyframes lock{
+    50%{
+        letter-spacing: 4vh;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+
+}
+
+#lopta{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100% 100% 100% 100%;
+    background-color: red;
+}
+
+.logo{
+    height: 20vh;
+    border-radius: 100% 100% 100% 100%;
+}
+.glavno{
+    visibility:hidden;
+    width: 40vw;
+    height: 40vh;
+    border: 10px dotted orange;
+    margin-left: 30vw;
+    margin-top: 30vh;
+    text-align: center;
+    font-size: 5vh;
+    color:lightgray;
+}
+#podatak1{
+    float: right;
+}
+
+#podatak2{
+    float: right;
+}
+
+input{
+    font-size: 4vh;
+
+}
+
+
+.signup{
+    font-size: 1.5vh;
+    float:right;
+    color: #fff;
+}
+.forgot{
+    font-size: 1.5vh;
+    float:left;
+    color: #fff;
+}

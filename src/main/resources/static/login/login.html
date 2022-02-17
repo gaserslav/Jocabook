@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="/login/login.css">
+
+</head>
+<body>
+
+    <div class="loading"><div id="lopta"></div><div id="loading">loading</div></div>
+
+ 
+<div class="glavno">
+
+    
+
+    <img src="/logo.png" class='logo'>
+
+    <form method="post" action="/">
+
+    <div id="podatak1">
+        <span>Usermane</span>
+    <input type="text" id="user">
+    </div><br>
+    <div id="podatak2">
+        <span>Password</span>
+        <input type="Password" id="password"> <br>
+        <button id="login">Log in</button>
+    </div>
+
+    <form>
+       <a href="/signup" class="signup"> You dont have account? make one!!</a>
+       <a href="/forgotpassword" class="forgot"> You forgot password?</a>
+</div >
+</body>
+
+<script src="/sha256.js"></script>
+<script src="/anime.min.js"></script>
+<script src="/login/login.js"></script>
+</html>

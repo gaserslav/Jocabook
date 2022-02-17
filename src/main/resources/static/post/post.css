@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    margin-left: 10vw;
+    width: 80vw;
+    height: 30vh;
+
+    background-color: lightskyblue;
+
+}
+
+
+#content{
+    margin-left: 10vw;
+    width: 80vw;
+    height: 60vh;
+
+}
+
+#sub{
+    margin-left: 10vw;
+    width: 80vw;
+    height: 10vh;
+}
+
